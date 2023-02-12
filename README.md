@@ -1,4 +1,5 @@
-### Hi there 👋
+### Hi
+The following is link to my professional journey. Please have a look 
 
 <!--
 **ChakravarthiDinavahi/ChakravarthiDinavahi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
