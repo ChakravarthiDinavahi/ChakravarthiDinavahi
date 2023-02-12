@@ -1,254 +1,285 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <style>
-        body {
-            margin: 30px;
-            padding: 10px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .name {
-            display: flex;
-            flex-direction: row;
-            font-size: 100px;
-        }
-        .resume-body {
-            display: flex;
-            flex-direction: row;
-        }
-        .left {
-            flex: 80;
-            display: flex;
-            flex-direction: column;
-            border-right: 1px solid black;
-            padding-right: 5px;
-        }
-        .right {
-            flex: 20;
-            display: flex;
-            flex-direction: column;
-        }
-        .heading {
-            color: teal;
-            font-size: 30px;
-            margin-top: 20px;
-        }
-        .company {
-            display: flex;
-            flex-direction: column;
-            margin-top: 20px;
-        }
-        .company-details {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-        .company .name {
-            font-size: 20px;
-            font-weight: bold;
-        }
-        .responsibilities {
-            margin-top: 10px;
-        }
-        .responsibilities div:before {
-            content: ">";
-            margin-right: 6px;
-        }
-        .responsibilities div {
-            line-height: 1.6;
-        }
-        .duration {
-            color: #737373;
-        }
-        .section {
-            margin-left: 10px;
-            text-align: left;
-        }
-        @media (max-width: 800px) {
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <style>
+            body {
+                margin: 30px;
+                padding: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+    
+            .name {
+                display: flex;
+                flex-direction: row;
+                font-size: 100px;
+            }
+    
             .resume-body {
-                flex-direction: column;
+                display: flex;
+                flex-direction: row;
             }
+    
             .left {
-                flex: 100;
-                border: none;
+                flex: 80;
+                display: flex;
+                flex-direction: column;
+                border-right: 1px solid black;
+                padding-right: 5px;
             }
+    
             .right {
-                flex: 100;
-            }
-            .section {
-                margin-left: 0px;
-            }
-            .company-details {
+                flex: 20;
+                display: flex;
                 flex-direction: column;
             }
-        }
-    </style>
-    <title>Chakravarthi Dinavahi</title>
-</head>
-<body>
-<div class="name">Chakravarthi Dinavahi</div>
-<div class="resume-body">
-    <div class="left">
-        <div class="profile">
-            <div class="heading">Profile</div>
-            <div class="content">
-                Passionate software engineer with 6 years of experience creating
-                high-quality, scalable, and high-performance web applications
-                seeking full stack opportunities.
+    
+            .heading {
+                color: teal;
+                font-size: 30px;
+                margin-top: 20px;
+            }
+    
+            .company {
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+            }
+    
+            .company-details {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+    
+            .company .name {
+                font-size: 20px;
+                font-weight: bold;
+            }
+    
+            .responsibilities {
+                margin-top: 10px;
+            }
+    
+            .responsibilities div:before {
+                content: ">";
+                margin-right: 6px;
+            }
+    
+            .responsibilities div {
+                line-height: 1.6;
+            }
+    
+            .duration {
+                color: #737373;
+            }
+    
+            .section {
+                margin-left: 10px;
+                text-align: left;
+            }
+    
+            @media (max-width: 800px) {
+                .resume-body {
+                    flex-direction: column;
+                }
+    
+                .left {
+                    flex: 100;
+                    border: none;
+                }
+    
+                .right {
+                    flex: 100;
+                }
+    
+                .section {
+                    margin-left: 0px;
+                }
+    
+                .company-details {
+                    flex-direction: column;
+                }
+            }
+        </style>
+        <title>Chakravarthi Dinavahi</title>
+    </head>
+    <body>
+        <div class="name">Chakravarthi Dinavahi</div>
+        <div class="resume-body">
+            <div class="left">
+                <div class="profile">
+                    <div class="heading">Profile</div>
+                    <div class="content">
+                        Passionate software engineer with 6 years of experience creating
+                        high-quality, scalable, and high-performance web applications
+                        seeking full stack opportunities.
+                    </div>
+                </div>
+                <div class="employement-history">
+                    <div class="heading">Employment History</div>
+                    <div class="company">
+                        <div class="company-details">
+                            <div class="name">Plansource (Benefits IT)</div>
+                            <div class="location">Bengalore</div>
+                        </div>
+                        <div class="duration">May 2021 - Present</div>
+                        <div class="responsibilities">
+                            <div>
+                                <b>Plansource</b> is Employee Benefits Administration software. Started working as a SDE 2 for
+                                10 months and promoted as a senior software Engineer
+                            </div>
+                            <div>
+                                As an SSE Conducted training sessions for associate engineers and interns on core concepts of
+                                RAILS, Engines, Mysql sharding, docker, js and react.js
+                            </div>
+                            <div>
+                                Enhancing legacy code and adding required test coverage(RSPEC and minitests). Involved in code
+                                reviews, DB architecture reviews and research on Product.
+                            </div>
+                            <div>
+                                Ownership on the features, managing team and Adhoc release of features (introduced source Tree
+                                tool.)
+                            </div>
+                            <div>
+                                <span>Improvement of user experience by optimizing queries.</span>
+                                <span>Identified the security vulnerablity with ckeditor-rails older version, <b>forked the ckeditor-rails gem to 4.13.0</b></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company">
+                        <div class="company-details">
+                            <div class="name">LotVue LLP (Real Estate IT)</div>
+                            <div class="location">Hyderabad</div>
+                        </div>
+                        <div class="duration">October 2018 - May 2021</div>
+                        <div class="responsibilities">
+                            <div>
+                                Lotvue provides an interactive site map for for Home Builders. Developers can directly integrate
+                                this to their website
+                            </div>
+                            <div>
+                                Worked with clients to refine and negotiate product requirement
+                                specifications, functional specifications, and product vision
+                                and direction.
+                            </div>
+                            <div>
+                                Development of new features as per customer requirements.
+                            </div>
+                            <div>
+                                Assisted in implementing cache storage using Redis.
+                                Involved in sprint Planning, Code and Bug reviews
+                            </div>
+                            <div>
+                                Improvement of user experience by optimizing queries.
+                            </div>
+                            <div>
+                                Involved in sprint Planning, Code and Bug reviews
+                            </div>
+                            <div>
+                                Testing basic functionality using ruby and selenium.
+                            </div>
+                            <div>
+                                Activity Logger, Developed Click Tracking, user enhancements and lot history tracking reports
+                            </div>
+                            <div>
+                                Implemented multiple Databases connection module to pull required statistics of lots for
+                                required clients and integrated with billing system.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company">
+                        <div class="company-details">
+                            <div class="name">Coppernine (EduTech IT)</div>
+                            <div class="location">Hyderabad</div>
+                        </div>
+                        <div class="duration">November 2016 - September 2018</div>
+                        <div class="responsibilities">
+                            <div>
+                                <b>Eduwonka</b> is automation of various functions in educational and training institutes
+                                Automation of manual roll call
+                            </div>
+                            <div>
+                                Developed an internal application for storing and processing
+                                data provided by data extraction team.
+                            </div>
+                            <div>
+                                Development of new features and refactoring existing features
+                                for learning platform.
+                            </div>
+                            <div>
+                                Development of LMS for efficient handling of learning content.
+                            </div>
+                            <div>
+                                Developed widgets to display various content types(PDF, Video
+                                etc).
+                            </div>
+                            <div>
+                                <span>Worked in developing the basic architecture of the entire application</span>
+                                <span>Involved in designing, developing various modules in the application spanning frontend, middleware, backend services and database interaction layer. </span>
+                            </div>
+                        </div>
+                        <div class="responsibilities">
+                            <div>
+                                <b>Remote Monitoring of industrial machinery </b> - provides a dashboard to remotely industrial
+                                machinery<br>
+                                · Sensors capture various parameters of the hardware systems
+                            </div>
+                            <div>
+                                Assisted in developing the basic architecture of the entire application
+                            </div>
+                            <div>
+                                Involved in developing various modules in the application spanning frontend, backend services
+                                and database interaction layer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education">
+                        <div class="heading">Education</div>
+                        <div>B.Tech, JNTUK</div>
+                        <div>Course: Information Technology</div>
+                        <div>Percentage: 68</div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="section">
+                        <div class="heading">Location</div>
+                        <div class="city">Hyderabad</div>
+                        <div class="country">India</div>
+                        <div class="mobile">+91 7207230323</div>
+                        <div class="email">chakravarthi.dinavahi@gmail.com</div>
+                    </div>
+                    <div class="section">
+                        <div class="heading">Skills</div>
+                        <div>Git</div>
+                        <div>Ruby On Rails, Rspec, MiniTest</div>
+                        <div>Ruby</div>
+                        <div>MySQL</div>
+                        <div>Postgresql</div>
+                        <div>DynamoDB</div>
+                        <div>HTML & CSS</div>
+                        <div>Bootstrap</div>
+                        <div>JavaScript</div>
+                        <div>React</div>
+                    </div>
+                    <div class="section">
+                        <div class="heading">Links</div>
+                        <a
+                                href="https://www.linkedin.com/in/chakravarthi-dinavahi-573472b2/"
+                                target="_blank"
+                        >LinkedIn</a
+                        ><br/>
+                        <a href="https://github.com/ChakravarthiDinavahi" target="_blank">Github</a>
+                    </div>
+                    <div class="section">
+                        <div class="heading">Languages</div>
+                        <div>English</div>
+                        <div>Telugu</div>
+                        <div>Hindi</div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="employement-history">
-            <div class="heading">Employment History</div>
-            <div class="company">
-                <div class="company-details">
-                    <div class="name">Plansource (Benefits IT)</div>
-                    <div class="location">Bengalore</div>
-                </div>
-                <div class="duration">May 2021 - Present</div>
-                <div class="responsibilities">
-                    <div>
-                        Plansource is Employee Benefits Administration software. Started working as a SDE 2 for 10 months and promoted as a senior software Engineer
-                    </div>
-                    <div>
-                        As an SSE Conducted training sessions for associate engineers and interns on core concepts of RAILS, Engines, Mysql sharding, docker, js and react.js
-                    </div>
-                    <div>
-                        Enhancing legacy code and adding required test coverage(RSPEC and minitests). Involved in code reviews, DB architecture reviews and research on Product.
-                    </div>
-                    <div>
-                        Ownership on the features, managing team and Adhoc release of features (introduced source Tree tool.)
-                    </div>
-                    <div>
-                        <span>Improvement of user experience by optimizing queries.</span>
-                        <span>Identified the security vulnerablity with ckeditor-rails older version, <b>forked the ckeditor-rails gem to 4.13.0</b> and published the new verison.</span>
-                    </div>
-                </div>
-            </div>
-            <div class="company">
-                <div class="company-details">
-                    <div class="name">LotVue LLP (Real Estate IT)</div>
-                    <div class="location">Hyderabad</div>
-                </div>
-                <div class="duration">October 2018 - May 2021</div>
-                <div class="responsibilities">
-                    <div>
-                        Lotvue provides an interactive site map for for Home Builders.  Developers can directly integrate this to their website
-                    </div>
-                    <div>
-                        Worked with clients to refine and negotiate product requirement
-                        specifications, functional specifications, and product vision
-                        and direction.
-                    </div>
-                    <div>
-                        Development of new features as per customer requirements.
-                    </div>
-                    <div>
-                        Assisted in implementing cache storage using Redis.
-                        Involved in sprint Planning, Code and Bug reviews
-                    </div>
-                    <div>
-                        Improvement of user experience by optimizing queries.
-                    </div>
-                    <div>
-                        Involved in sprint Planning, Code and Bug reviews
-                    </div>
-                    <div>
-                        Testing basic functionality using ruby and selenium.
-                    </div>
-                    <div>
-                        Activity Logger, Developed Click Tracking, user enhancements and lot history tracking reports
-                    </div>
-                    <div>
-                        Implemented multiple Databases connection module to pull required statistics of lots for required clients and integrated with billing system.
-                    </div>
-                </div>
-            </div>
-            <div class="company">
-                <div class="company-details">
-                    <div class="name">Coppernine (EduTech IT)</div>
-                    <div class="location">Hyderabad</div>
-                </div>
-                <div class="duration">November 2016 - September 2018</div>
-                <div class="responsibilities">
-                    <div>
-                        Eduwonka is automation of various functions in educational  and training institutes
-                        Automation of manual roll call
-                    </div>
-                    <div>
-                        Developed an internal application for storing and processing
-                        data provided by data extraction team.
-                    </div>
-                    <div>
-                        Development of new features and refactoring existing features
-                        for learning platform.
-                    </div>
-                    <div>
-                        Development of LMS for efficient handling of learning content.
-                    </div>
-                    <div>
-                        Developed widgets to display various content types(PDF, Video
-                        etc).
-                    </div>
-                    <div>
-                        <span>Worked in developing the basic architecture of the entire application</span>
-                        <span>Involved in designing, developing various modules in the application spanning frontend, middleware, backend services and database interaction layer. </span>
-                    </div>
-                </div>
-                <div class="responsibilities">
-                    <div>
-                        Remote Monitoring of industrial machinery -  provides a dashboard to remotely industrial machinery<br>
-                        ·  Sensors capture various parameters of the hardware systems
-                    </div>
-                </div>
-        </div>
-        <div class="education">
-            <div class="heading">Education</div>
-            <div>B.Tech, JNTUK</div>
-            <div>Course: Information Technology</div>
-            <div>Percentage: 68</div>
-        </div>
-    </div>
-    <div class="right">
-        <div class="section">
-            <div class="heading">Location</div>
-            <div class="city">Hyderabad</div>
-            <div class="country">India</div>
-            <div class="mobile">+91 7207230323</div>
-            <div class="email">chakravarthi.dinavahi@gmail.com</div>
-        </div>
-        <div class="section">
-            <div class="heading">Skills</div>
-            <div>Git</div>
-            <div>Ruby On Rails, Rspec, MiniTest</div>
-            <div>Ruby</div>
-            <div>MySQL</div>
-            <div>Postgresql</div>
-            <div>DynamoDB</div>
-            <div>HTML & CSS</div>
-            <div>Bootstrap</div>
-            <div>JavaScript</div>
-            <div>React</div>
-        </div>
-        <div class="section">
-            <div class="heading">Links</div>
-            <a
-                    href="https://www.linkedin.com/in/chakravarthi-dinavahi-573472b2/"
-                    target="_blank"
-            >LinkedIn</a
-            ><br />
-            <a href="https://github.com/ChakravarthiDinavahi" target="_blank">Github</a>
-        </div>
-        <div class="section">
-            <div class="heading">Languages</div>
-            <div>English</div>
-            <div>Telugu</div>
-            <div>Hindi</div>
-        </div>
-    </div>
-</div>
-</body>
+    </body>
 </html>
